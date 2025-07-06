@@ -1,8 +1,7 @@
-/* styles/styles.css */
-*{
+/* Reset some default styles */
+{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -28,40 +27,35 @@ header img {
 
 
 nav ul {
-    list-style-type: none;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+        
 }
 
 nav ul li {
     display: inline;
-
-}
+    margin: 5px;
+    }
 
 nav ul li a {
     text-decoration: none; 
-    color: #ffffff; 
-    
+    color: #ffffff;     
 }
 
 nav ul li a:hover {
     color: #cccccc;
 }
 
-main {
 
-}
-
-section {
-
-    
-}
 
 article {
     background-color: #ffffff;
     
 }
 
-/
+
 h1 {
     color: #333333;
     font-size: 2em; 
@@ -97,7 +91,10 @@ main a:hover {
 footer {
     background-color: #333333; 
     color: #ffffff; 
-    text-align: center; 
+    text-align: center;
+    padding: 5px 5px; 
+    margin: 5px 5px;
+
     
 }
 
@@ -107,6 +104,3 @@ footer p {
 }
 
 
-.main-section {
-    
-}
