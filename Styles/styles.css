@@ -11,18 +11,21 @@ body {
     background-color: #f4f4f4;
 }
 
+header {
+    display: flex;
+    align-items: center;      /* Centra verticalmente logo y nav */
+    justify-content: space-between; /* Espacia logo y nav */
+    background-color: #333333;
+    color: #ffffff;
+    padding: 0 20px;
+    height: 80px;
+}
 
-            header {
-                background-color: #333333;
-                color: #ffffff;
-                
-            }
-
-header img {
-    
-    max-width: 150px;
-    height: auto; 
-
+.brand-logo {
+    max-height: 70px;         /* Ajusta para que el logo no sea más alto que el header */
+    height: auto;
+    width: auto;
+    display: block;
 }
 
 
